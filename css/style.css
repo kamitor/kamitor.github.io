@@ -73,8 +73,10 @@
   /* Showcase */
   .showcase {
     grid-area: showcase;
-    min-height: 400px;
-    background: url(https://image.ibb.co/kYJK8x/showcase.jpg);
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -83,6 +85,9 @@
     align-items: start;
     justify-content: center;
     box-shadow: var(--shadow);
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
   }
   
   .showcase h1 {
